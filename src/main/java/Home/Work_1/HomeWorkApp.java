@@ -4,10 +4,10 @@ import javax.swing.*;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-       printThreWordse();//вызов метода вывода в консоль строк Orange Banana Apple
-        chekSumSign();//вызов метода сравнения сравнения сумм а и b
-        printColor();//вызов метода сравнения переменной value
-        compareNumbers();//вызов метода сравнения значений a и b
+       printThreWordse();//вызов метода вывода в консоль строк Orange Banana Apple.
+        chekSumSign();//вызов метода сравнения сравнения сумм а и b.
+        printColor();//вызов метода сравнения переменной value.
+        compareNumbers();//вызов метода сравнения значений a и b.
     }
     public static void printThreWordse() {
         System.out.println("Задание №2");
