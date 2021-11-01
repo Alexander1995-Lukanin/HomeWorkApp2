@@ -14,6 +14,7 @@ public class QuadraticEquation {
         c=in.nextDouble();
         if (a==0){
             System.out.println("Введеное уравнение не квадратное! Не шути так со мной!");
+            return;
         }
         D=b*b-4*a*c;
         int x=5;

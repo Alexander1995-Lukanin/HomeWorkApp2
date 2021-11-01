@@ -10,15 +10,13 @@ public class HomeWorkApp2 {
         System.out.println (comparingNegativeOrPositiveNumbers (5));
         System.out.println (positiveOrNegativeNumbers (-5));
         System.out.println (repeatingString ("\nПовторяю",3));
-        System.out.println(DefinitionOfTheYear(2200));
+        System.out.println(definitionOfTheYear(2200));
 
        }
        static boolean comparisonBool(int a,int b){
           int result =a+b;
-          if (result>=10 && result<=20) {
-              return true;
-          }
-          else return false;
+           return (result>=10 && result<=20);
+
       }
       public static String comparingNegativeOrPositiveNumbers (int a) {
           String pos="the number is positive";
@@ -27,8 +25,7 @@ public class HomeWorkApp2 {
           else return neg;
       }
       public static boolean positiveOrNegativeNumbers (int a){
-          if (a>=0) return false;
-          else return true;
+          return (a<0);
       }
 //      public static void repeatingString (String rep,int p) { вариант повторения строки с циклом
 //        for (int i=p; i>=1; i--) {
@@ -39,8 +36,8 @@ public static String repeatingString (String rep,int p) {//другой вари
        rep = rep.repeat(p);
        return rep;
        }
-       public static boolean DefinitionOfTheYear(int year) {
-           return (year % 4 != 0 && year % 400 != 0 || year % 100 == 0);
+       public static boolean definitionOfTheYear(int year) {
+           return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
        }
 
 }
