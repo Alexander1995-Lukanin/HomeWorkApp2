@@ -1,19 +1,19 @@
 package Home.Work_6;
 
 public class Animal {
-    protected String Name;
+    protected String name;
 
     protected Animal(String Name) {
-        this.Name = Name;
+        this.name = Name;
     }
 
     protected void run(int let) {
-        System.out.printf("%s пробежал %d м.\n", Name, let);
+        System.out.printf("%s пробежал %d м.\n", name, let);
 
     }
 
     protected void sail(int let) {
-        System.out.printf("%s проплыл %d м.\n", Name, let);
+        System.out.printf("%s проплыл %d м.\n", name, let);
 
     }
 
