@@ -9,7 +9,7 @@ public class Bowl {
     public void putFood() {
         System.out.println("Напсыпте котам еды: ");
         Scanner console = new Scanner(System.in);
-         int food= console.nextInt();
+        int food = console.nextInt();
         this.foodAmount += food;
         System.out.printf("Вы подсыпали в миску %d  грамм корма, сейчас в миске %s грамм\n", food, foodAmount);
         if (foodAmount >= bowlSize) {

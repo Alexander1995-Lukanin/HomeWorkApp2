@@ -15,8 +15,8 @@ public class Cat {
     public void eat(Bowl bowl) {
         if (bowl.getFoodAmount() >= appetite) {
             bowl.decreaseFood(appetite);
-            satiety=true;
-            System.out.printf("Это кот %s съел %d грамм корма.\nСытость кота  %sа: %b \n", name, appetite,name, satiety);
+            satiety = true;
+            System.out.printf("Это кот %s съел %d грамм корма.\nСытость кота  %sа: %b \n", name, appetite, name, satiety);
         } else {
             satiety = false;
             System.out.printf("Для кота %sа корма очень мало, он не стал есть. Подсыпте ему корма.\nСытость кота %sа: %b\n", name, name, satiety);
